@@ -10,30 +10,30 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6551387262:AAHFwkGUr06f6YDx1XxZHlANq2E1pYkWpHw")
 
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "22505271"))
+APP_ID = int(os.environ.get("APP_ID", "22322696"))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "c89a94fcfda4bc06524d0903977fc81e")
+API_HASH = os.environ.get("API_HASH", "9fd68dd28f51acaaa991092879899b1b")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002075726565"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002184809306"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "6695586027"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "6030420429"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Cluster0:Cluster0@cluster0.c07xkuf.mongodb.net/?retryWrites=true&w=majority")
-DB_NAME = os.environ.get("DATABASE_NAME", "Cluster01")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Urlupload_3bot:I0qisgnMyuRXxIpj@cluster0.fa3fgma.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_NAME = os.environ.get("DATABASE_NAME", "Urlupload_3bot")
 
 #force sub channel id, if you want enable force sub
-FORCESUB_CHANNEL = int(os.environ.get("FORCESUB_CHANNEL", "-1002108419450"))
-FORCESUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "-1001982072622"))
+FORCESUB_CHANNEL = int(os.environ.get("FORCESUB_CHANNEL", "-1002118741689"))
+FORCESUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "-1002032781980"))
 FORCESUB_CHANNEL3 = int(os.environ.get("FORCESUB_CHANNEL3", "-1001976541518"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
@@ -41,8 +41,8 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 #token varibles
 # my shortner https://dashboard.shareus.io/signup/lifetime/U9AZbV
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "api.shareus.io")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "PUIAQBIFrydvLhIzAOeGV8yZppu2")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "Modijiurl.com")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "1b200507341bd8a9bb9c5367413db95d1252b73a")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID","gojfsi/2")
